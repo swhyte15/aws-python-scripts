@@ -5,12 +5,15 @@
 A collection of simple and reusable Python scripts for automating common AWS tasks using **boto3**.
 
 ## 📦 What's Included
+## 📦 What's Included
 
-| Script           | Description                                                 |
-|------------------|-------------------------------------------------------------|
-| `s3_uploader.py` | Uploads a file to an S3 bucket                              |
-| `ec2_info.py`    | Lists basic information about your EC2 instances            |
-| `invoke_lambda.py`| Invokes a Lambda function with a custom JSON payload       |
+| Script                  | Description                                                                 |
+|--------------------------|-----------------------------------------------------------------------------|
+| `s3_uploader.py`         | Uploads a file to an S3 bucket                                              |
+| `ec2_info.py`            | Lists basic information about your EC2 instances                            |
+| `invoke_lambda.py`       | Invokes a Lambda function with a custom JSON payload                        |
+| `ebs_create_snapshots.py`| Takes daily snapshots of attached EBS volumes across all AWS regions        |
+| `ebs_delete_snapshots.py`| Deletes EBS snapshots older than a predefined retention period              |
 
 ---
 
